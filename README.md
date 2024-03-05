@@ -12,8 +12,8 @@ Python must be installed.
 
 ## Steps to run example
 - install the required Python packages with pip install requirements.txt
-- run the sql Skript in PostgreSQL zu create the tables
+- run the sql Skript 01_createTabs.sql in PostgreSQL zu create the tables
 - check .env for your PostgreSQL environment and set password
-- run the Python script to create the embeddings
+- run the Python script 02_embeddings.py to create the embeddings
 - query the PostgreSQL tables with similarity search
 
