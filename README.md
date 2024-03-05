@@ -1,4 +1,4 @@
-# pgvector
+# pg_vector
 Example usage for PostgreSQL VectorDB extension.
 
 ## Prerequisites 
