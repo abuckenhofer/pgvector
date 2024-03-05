@@ -1,7 +1,7 @@
 CREATE EXTENSION IF NOT EXISTS pg_vector;
 
 DROP SCHEMA if exists vector;
-CREATE SCHEMA vector;
+CREATE SCHEMA vector CASCADE;
 
 -- Tabelle für Besucher mit ihren Präferenz-Vektoren
 CREATE TABLE vector.visitor (
