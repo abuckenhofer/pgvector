@@ -1,0 +1,6 @@
+dotenv
+os
+pip-system-certs
+psycopg2-binary
+transformers 
+torch 
