@@ -14,7 +14,7 @@ Now the PostgreSQL command shell can be started: psql -U postgres
 
 ## Steps to run example
 - install the required Python packages with "pip install -r requirements.txt"
-- run the sql Skript 01_createTabs.sql in PostgreSQL zu create the tables
+- run the sql Skript 01_createTabs.sql in PostgreSQL to create the tables
 - check .env for your PostgreSQL environment and set password
 - run the Python script 02_embeddings.py to create the embeddings
 - query the PostgreSQL tables with similarity search. Example queries can be found at the end of the script in 01_createTabs.sql 
