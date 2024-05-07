@@ -17,5 +17,7 @@ Now the PostgreSQL command shell can be started: psql -U postgres
 - run the sql Skript 01_createTabs.sql in PostgreSQL to create the tables
 - check .env for your PostgreSQL environment and set password
 - run the Python script 02_embeddings.py to create the embeddings
-- query the PostgreSQL tables with similarity search. Example queries can be found at the end of the script in 01_createTabs.sql 
+- query the PostgreSQL tables with similarity search. Example queries can be found at the end of the script in 01_createTabs.sql
+
+For more information on Vector databases see my personal blog, e.g. [Vector databases - what, why, and how](https://buckenhofer.com/2024/05/vector-database-what-why-and-how/).
 
